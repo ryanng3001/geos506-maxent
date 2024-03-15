@@ -1,1 +1,1 @@
-# geos506-maxent-210324
+# geos506-maxent
