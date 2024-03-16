@@ -1,0 +1,131 @@
+Fri Mar 15 15:23:04 PDT 2024
+MaxEnt version 3.4.4
+Checking header of C:\Users\ryann\Downloads\worklearn\geos506-maxent\data\annual_heat_moisture.asc
+Checking header of C:\Users\ryann\Downloads\worklearn\geos506-maxent\data\mean_annual_temp.asc
+Reading samples from eurybia-conspicua-sdm.csv
+Read samples: max memory 4192206848, total allocated 629145600, free 220671536, used 408474064, increment 250736392
+Warning: Sample at -104.904592, 52.631723 in eurybia-conspicua-sdm.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -104.905134, 52.632537 in eurybia-conspicua-sdm.csv is outside the bounding box of environmental data, skipping
+Warning: Sample at -103.51986, 52.495069 in eurybia-conspicua-sdm.csv is outside the bounding box of environmental data, skipping
+Time since start: 2.151
+Extractor: max memory 4192206848, total allocated 629145600, free 219154000, used 409991600, increment 1517536
+Extracting random background and sample data
+9920956 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=C:\Users\ryann\Downloads\worklearn\geos506-maxent\output samplesfile=C:\Users\ryann\Downloads\worklearn\geos506-maxent\data\eurybia-conspicua-sdm.csv environmentallayers=C:\Users\ryann\Downloads\worklearn\geos506-maxent\data randomtestpoints=25
+Species: Eurybia_conspicua
+Layers: annual_heat_moisture mean_annual_temp
+Layertypes: Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\ryann\Downloads\worklearn\geos506-maxent\output
+samplesfile: C:\Users\ryann\Downloads\worklearn\geos506-maxent\data\eurybia-conspicua-sdm.csv
+environmentallayers: C:\Users\ryann\Downloads\worklearn\geos506-maxent\data
+randomtestpoints: 25
+
+getSamples: max memory 4192206848, total allocated 629145600, free 212282928, used 416862672, increment 6871072
+Time since start: 5.582
+Making features
+makeFeatures: max memory 4192206848, total allocated 629145600, free 210857832, used 418287768, increment 1425096
+Eurybia_conspicua: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 4192206848, total allocated 629145600, free 209135152, used 420010448, increment 1722680
+linearPredictor: max memory 4192206848, total allocated 629145600, free 209135152, used 420010448, increment 0
+FeaturedSpace: max memory 4192206848, total allocated 629145600, free 209135152, used 420010448, increment 0
+Sequential: max memory 4192206848, total allocated 629145600, free 209135152, used 420010448, increment 0
+Initial loss: 9.22414465295258
+Initial test loss: 9.22414465295258
+240: time = 0.238000 loss = 8.293869 testLoss 8.211925
+Resulting gain: 0.9302753667380568
+Projecting...
+Writing file C:\Users\ryann\Downloads\worklearn\geos506-maxent\output\Eurybia_conspicua.asc
+Time since start: 21.014
+Writing C:\Users\ryann\Downloads\worklearn\geos506-maxent\output\plots\Eurybia_conspicua.png
+Time since start: 22.483
+Eurybia_conspicua response curves
+Response curve: only annual_heat_moisture
+Making features
+makeFeatures: max memory 4192206848, total allocated 629145600, free 119809136, used 509336464, increment 89326016
+Eurybia_conspicua annual_heat_moisture: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 4192206848, total allocated 629145600, free 118705880, used 510439720, increment 1103256
+linearPredictor: max memory 4192206848, total allocated 629145600, free 118705880, used 510439720, increment 0
+FeaturedSpace: max memory 4192206848, total allocated 629145600, free 118705880, used 510439720, increment 0
+Sequential: max memory 4192206848, total allocated 629145600, free 118705880, used 510439720, increment 0
+Initial loss: 9.22414465295258
+320: time = 0.236000 loss = 8.840749
+Resulting gain: 0.3833954309043275
+Eurybia_conspicua response curves
+Response curve: only mean_annual_temp
+Making features
+makeFeatures: max memory 4192206848, total allocated 629145600, free 425335456, used 203810144, increment -306629576
+Eurybia_conspicua mean_annual_temp: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 4192206848, total allocated 629145600, free 424183896, used 204961704, increment 1151560
+linearPredictor: max memory 4192206848, total allocated 629145600, free 424183896, used 204961704, increment 0
+FeaturedSpace: max memory 4192206848, total allocated 629145600, free 424183896, used 204961704, increment 0
+Sequential: max memory 4192206848, total allocated 629145600, free 424183896, used 204961704, increment 0
+Initial loss: 9.22414465295258
+280: time = 0.173000 loss = 8.458434
+Resulting gain: 0.765710496827559
+Eurybia_conspicua response curves
+Jackknife: leave annual_heat_moisture out
+Making features
+makeFeatures: max memory 4192206848, total allocated 629145600, free 394926928, used 234218672, increment 29256968
+Eurybia_conspicua annual_heat_moisture: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 4192206848, total allocated 629145600, free 393878360, used 235267240, increment 1048568
+linearPredictor: max memory 4192206848, total allocated 629145600, free 393878360, used 235267240, increment 0
+FeaturedSpace: max memory 4192206848, total allocated 629145600, free 393878360, used 235267240, increment 0
+Sequential: max memory 4192206848, total allocated 629145600, free 393878360, used 235267240, increment 0
+Initial loss: 9.22414465295258
+Initial test loss: 9.22414465295258
+280: time = 0.170000 loss = 8.458434 testLoss 8.346186
+Jackknife: leave mean_annual_temp out
+Making features
+makeFeatures: max memory 4192206848, total allocated 629145600, free 374820064, used 254325536, increment 19058296
+Eurybia_conspicua mean_annual_temp: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 4192206848, total allocated 629145600, free 373668296, used 255477304, increment 1151768
+linearPredictor: max memory 4192206848, total allocated 629145600, free 373668296, used 255477304, increment 0
+FeaturedSpace: max memory 4192206848, total allocated 629145600, free 373668296, used 255477304, increment 0
+Sequential: max memory 4192206848, total allocated 629145600, free 373668296, used 255477304, increment 0
+Initial loss: 9.22414465295258
+Initial test loss: 9.22414465295258
+320: time = 0.233000 loss = 8.840749 testLoss 8.823553
+Jackknife: only annual_heat_moisture
+Making features
+makeFeatures: max memory 4192206848, total allocated 629145600, free 308932816, used 320212784, increment 64735480
+Eurybia_conspicua annual_heat_moisture: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 4192206848, total allocated 629145600, free 307908008, used 321237592, increment 1024808
+linearPredictor: max memory 4192206848, total allocated 629145600, free 307908008, used 321237592, increment 0
+FeaturedSpace: max memory 4192206848, total allocated 629145600, free 307908008, used 321237592, increment 0
+Sequential: max memory 4192206848, total allocated 629145600, free 307908008, used 321237592, increment 0
+Initial loss: 9.22414465295258
+Initial test loss: 9.22414465295258
+Time since start: 23.67
+320: time = 0.237000 loss = 8.840749 testLoss 8.823553
+Res.gain: 0.3833954309043275
+Jackknife: only mean_annual_temp
+Making features
+makeFeatures: max memory 4192206848, total allocated 629145600, free 243931992, used 385213608, increment 63976016
+Eurybia_conspicua mean_annual_temp: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 4192206848, total allocated 629145600, free 242896296, used 386249304, increment 1035696
+linearPredictor: max memory 4192206848, total allocated 629145600, free 242896296, used 386249304, increment 0
+FeaturedSpace: max memory 4192206848, total allocated 629145600, free 242896296, used 386249304, increment 0
+Sequential: max memory 4192206848, total allocated 629145600, free 242896296, used 386249304, increment 0
+Initial loss: 9.22414465295258
+Initial test loss: 9.22414465295258
+280: time = 0.173000 loss = 8.458434 testLoss 8.346186
+Res.gain: 0.765710496827559
+Ending

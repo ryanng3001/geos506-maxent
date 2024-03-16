@@ -1,0 +1,2 @@
+java -mx3998m -cp "/C:/Users/ryann/Downloads/worklearn/west-moberly-proj/maxent-download/maxent.jar;C:\Users\ryann\Downloads\worklearn\west-moberly-proj\maxent-download\maxent.jar" density.Explain -l C:\Users\ryann\Downloads\worklearn\geos506-maxent\output\Eurybia_conspicua.lambdas -c C:\Users\ryann\Downloads\worklearn\geos506-maxent\output\Eurybia_conspicua.asc C:\Users\ryann\Downloads\worklearn\geos506-maxent\data
+@if errorlevel 1 pause
