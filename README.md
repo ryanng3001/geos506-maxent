@@ -1,4 +1,5 @@
 # Quick Guide to Working with MaxEnt on R
+Prepared by: Ryan Ng, Williams Lab: Plant Ecology and Biogeography, UBC Department of Geography
 
 This document outlines a brief introduction to the use of MaxEnt for maximum entropy modeling of species geographic distribution. Specifically, we will attempt to predict the distribution of *Eurybia conspicua* (Showy Aster), a perennial herb commonly found in British Columbia and East of the Coast-Cascades Mountains.
 
